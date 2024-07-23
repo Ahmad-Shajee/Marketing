@@ -1,0 +1,141 @@
+body{
+  background-color: #ECF6FF;
+}
+
+.links-container{
+  height: 140px;
+  width: 1270px;
+  margin-top: 5px;
+  margin-bottom: -50px;
+}
+
+.links{
+  height: 46px;
+  background-color: #002D62;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.arrivy-logo-size {
+  width: 160px; /* Set desired width */
+  height: 24; /* Maintain aspect ratio */
+}
+
+.campaigns-logo-size {
+  margin-top: -6px;
+  margin-bottom: -2px;
+  width: 174px; /* Set desired width */
+  height: 49px; /* Maintain aspect ratio */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+}
+
+.add-advertisement-button {
+  padding: 12px 27px;
+  background-color: #20ba87;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.add-advertisement-button:hover {
+  background-color: #0056b3;
+}
+
+.search-bar {
+  margin-left: 8px;
+  padding: 8px;
+  font-size: 12px;
+  width: 220px;
+  height: 10px;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+}
+
+.table-container {
+  background-color: #ECF6FF;
+}
+
+table {
+  height: 130px;
+  border-collapse: collapse;
+  margin: 10px;
+  font-size: 10px;
+  text-align: left;
+}
+
+th, td {
+  border: 3px solid #ECF6FF;
+  white-space: nowrap;
+  text-align: center;
+}
+
+th, tr {
+  background-color: #f9f9f9;
+  padding: 4px;
+}
+
+.toggle-container {
+  width: 28px; /* Width of the toggle button */
+  height: 13px; /* Height of the toggle button */
+  background-color: grey; /* Default background color */
+  border-radius: 15px; /* Round corners */
+  position: relative; /* Position relative to position the slider inside it */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  padding: 2px;
+}
+
+/* Background color when the toggle is on */
+.toggle-container.on {
+  background-color: rgb(0,123,255); /* Background color when on */
+}
+
+/* The slider that moves inside the container */
+.slider {
+  margin-top: 2px;
+  width: 12px; /* Width of the slider */
+  height: 12px; /* Height of the slider */
+  background-color: white; /* Slider's background color */
+  border-radius: 15px; /* Match the container's border radius */
+  position: absolute; /* Absolute positioning inside the container */
+  top: 0; /* Align to top */
+  left: 0; /* Align to left */
+  transition: transform 0.3s ease; /* Smooth sliding transition */
+}
+
+/* Position of the slider when the toggle is on */
+.toggle-container.on .slider {
+  transform: translateX(18px); /* Move slider to the right */
+}
+
+.toggle-selected-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: rgb(0, 123, 255); /* Button color */
+  color: white;
+  border-radius: 10px;
+  border: 2px solid rgb(0,123,255);
+  cursor: pointer;
+  font-size: 11px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-selected-button:hover {
+  background-color: darkblue; /* Darker shade on hover */
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(0,123,255);
+}
+
+

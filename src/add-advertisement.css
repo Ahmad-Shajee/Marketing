@@ -1,0 +1,124 @@
+.add-advertisement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.form-preview-container {
+  display: flex;
+  width: 100%;
+}
+
+.form-container, .preview-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form label {
+  margin-bottom: 10px;
+}
+
+.form-container form input {
+  margin-top: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #bbd4ea;
+}
+
+.form-container {
+  justify-content: flex-end;
+  margin-top: px;
+  padding: 5px;
+  background-color: white;
+}
+
+.preview-container {
+  background-image: url('Preview.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: flex-end; /* Align items to the bottom */
+  height: 500px; /* Adjust height as needed */
+  width: 100%; /* Adjust width as needed */
+  position: relative; /* To position child elements relative to this container */
+  margin-top: 30px;
+}
+
+/* Style for the preview content */
+.preview-content {
+  position: absolute;
+  bottom: 320px; /* Adjust as needed to move up from the bottom */
+  right: 100px; /* Adjust as needed to move left from the right edge */
+  height: 15px;
+}
+
+/* Image preview section */
+.image-preview {
+  margin-top: 20px;
+}
+
+.image-preview-item {
+  position: relative;
+}
+
+.image-preview-item img {
+  width: 95px;
+  height: 70px;
+  display: block;
+  bottom: 20px;
+  right: 20px;
+}
+
+.image-primary-content h4 {
+  width: 800px;
+  height: 100px;
+  display: block;
+  bottom: 200px;
+  right: 300px;
+}
+
+.image-primary-content p {
+  width: 80px;
+  height: 100px;
+  display: block;
+  bottom: 200px;
+  right: 20px;
+}
+
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.back-button {
+  background-color: white;
+  justify-content: flex-end;
+  width: 120px;
+  height: 40px;
+  color: black;
+  margin-right: 7px;
+  border: 2px solid white;
+}
+
+.publish-button {
+  background-color: rgb(19, 133, 255);
+  border: 2px solid rgb(0,123,255);
+  justify-content: flex-end;
+  margin-left: auto;
+  width: 120px;
+  height: 40px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.publish-button:hover {
+  background-color: #0056b3;
+}
+
